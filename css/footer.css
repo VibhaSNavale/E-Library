@@ -1,0 +1,77 @@
+html, body {
+    100%;
+}
+
+.swiper-container {
+    min-height: 100%;
+}
+
+.mybooks-container {
+    min-height: 100%;
+}
+
+.footer {
+    background: #19497F; 
+    color: #eef;
+    height: 350px;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.footer .footer-content {
+    height: 300px;
+    display: flex;
+}
+
+.footer .footer-content .footer-section {
+    flex: 1;
+    padding: 25px;
+}
+
+.footer .footer-content .about .contact span{
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.footer .footer-content .links ul a {
+    color: lightgrey;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    transition: all .3s;
+}
+
+.footer .footer-content .links ul a:hover {
+    color: #fff;
+    margin-left: 15px;
+    transition: all .3s;
+}
+
+.footer .footer-bottom {
+    background: #19598F;
+    color: #eef;
+    height: 45px;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 1100px) {
+    .footer {
+        height: auto;
+    }
+
+    .footer .footer-content {
+        height: auto;
+        flex-direction: column;
+    }
+    .footer .footer-content .links {
+        padding-bottom: 80px;
+    }
+}

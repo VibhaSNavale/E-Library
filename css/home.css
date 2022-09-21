@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+body {
+    margin: 0;
+    padding: 0;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-custom { 
+    background-color: #19497F; 
+}
+
+.navbar-toggler.custom-toggler {
+    background-color: #19497F;
+    box-shadow: 1px 1px 2px 2px #ddd;
+}
+
+.custom-toggler .navbar-toggler-icon { 
+    background-image: url( "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+} 
+
+.navbar-brand, .nav-link {
+    color: #eee;
+}
+
+.navbar-brand:hover, .nav-link:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.card {
+    position: relative;
+    background: #fff;
+    width: 300px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.card .content {
+    width: 300px;
+    box-sizing: border-box;
+    margin-left: 17%;
+    margin-top: 5px;
+}
+
+.card .content a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 2px solid #000;
+    color: #19497F;
+    font-weight: 500;
+    margin: 10px 0 10px 20px;
+    border-radius: 5%;
+}
+
+.card .content a:hover {
+    background-color: #19497F;
+    color: #eef;
+    transition: all 0.4s ease-in;
+}
+
+.card .sliderText {
+    position: relative;
+    width: 300px;
+    height: 100px;
+    display: flex;
+    padding: 0px 20px 0px 20px;
+    justify-content: center;
+    align-items: center;
+    background: #19497F;
+}
+
+.card .sliderText h3 {
+    font-size: 1.5em;
+    color: #fff;
+}
+
+.swiper-slide {
+    max-width: 300px;
+    max-height: 400px;
+}
+
+.swiper-container {
+    margin-top: 150px;
+    max-height: 400px;
+}
+
+h1 {
+    display: block;
+}
